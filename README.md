@@ -17,7 +17,7 @@ A full-stack project and task management dashboard built with **Next.js 16**, **
 | Framework | Next.js 16 (App Router, Turbopack) |
 | UI | React 19, Tailwind CSS 4 |
 | Language | TypeScript 5 |
-| ORM | Prisma 6 (`prisma-client` generator) |
+| ORM | Prisma 6 |
 | Database | PostgreSQL on Supabase |
 | Authentication | Supabase Auth (`@supabase/ssr`) |
 | Tooling | ESLint 9 |
@@ -77,7 +77,7 @@ npm install
 cp .env.example .env        # then fill in the values (see below)
 
 npx prisma db push          # creates the projects and tasks tables
-npx prisma generate         # generates the typed client into app/generated/prisma
+npx prisma generate         # generates the typed client (also runs automatically on npm install)
 
 npm run dev                 # http://localhost:3000
 ```
