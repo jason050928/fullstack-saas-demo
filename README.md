@@ -2,6 +2,10 @@
 
 A full-stack project and task management dashboard built with **Next.js 16**, **Prisma**, and **Supabase**. It demonstrates a modern, server-first React architecture: authenticated Server Components, Server Actions for mutations, and a type-safe database layer — with no client-side data-fetching library or REST API to maintain.
 
+## Live Demo
+
+https://taskflowsaas-app.netlify.app
+
 ## Key Features
 
 - **Email/password authentication** via Supabase Auth, with session refresh and route protection handled at the edge
