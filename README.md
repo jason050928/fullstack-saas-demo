@@ -6,6 +6,16 @@ A full-stack project and task management dashboard built with **Next.js 16**, **
 
 https://taskflowsaas-app.netlify.app
 
+## Screenshots
+
+### Dashboard
+
+![TaskFlow SaaS Dashboard](public/screenshots/dashboard.png)
+
+### Login
+
+![TaskFlow SaaS Login](public/screenshots/login.png)
+
 ## Key Features
 
 - **Email/password authentication** via Supabase Auth, with session refresh and route protection handled at the edge
